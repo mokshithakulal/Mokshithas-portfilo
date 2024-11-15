@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mokshitha's Portfolio</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-size: 18px;
+        }
+        nav {
+            background-color: #333;
+            padding: 1.5rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        section {
+            min-height: 100vh;
+            padding: 50px 20px;
+            margin-top: 70px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        #home {
+            background: linear-gradient(to bottom right, #3a1c71, #d76d77, #ffaf7b);
+        }
+        #resume {
+            background: linear-gradient(to bottom right, #3c3b3f, #605c3c);
+            text-align: left;
+            padding: 50px;
+        }
+        #biodata {
+            background: linear-gradient(to bottom right, #43cea2, #185a9d);
+        }
+        #contact {
+            background: linear-gradient(to bottom right, #f4d03f, #16a085);
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        h3 {
+            font-size: 2rem;
+        }
+        .profile {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .profile-img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        table th, table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid white;
+            font-size: 1.2rem;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            font-size: 1.2rem;
+        }
+        ul {
+            font-size: 1.2rem;
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        a {
+            color: lightblue;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#biodata">Biodata</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome</h1>
+        <h2>Mokshitha's Portfolio</h2>
+        <p>Explore my portfolio and learn more about me.</p>
+        <img src="me.jpeg" alt="Mokshitha's Photo" class="profile-img">
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h1>Resume</h1>
+        <div class="profile">
+            <div class="profile-content">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Communication Skill</li>
+                    <li>Problem Solving</li>
+                    <li>Time Management</li>
+                    <li>HTML, JavaScript</li>
+                    <li>C, C++, Java</li>
+                </ul>
+                <h3>Education</h3>
+                <ul>
+                    <li>Bachelor of Science in Computer Science - Vivekananda College of Engineering and Technology</li>
+                </ul>
+                <h3>Certifications</h3>
+                <ul>
+                    <li>Database Management Systems</li>
+                    <li>Web Development (front end)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Biodata Section -->
+    <section id="biodata">
+        <h1>Biodata</h1>
+        <table>
+            <tr>
+                <th>Name:</th>
+                <td>Mokshitha</td>
+            </tr>
+            <tr>
+                <th>Date of Birth:</th>
+                <td>25/02/2005</td>
+            </tr>
+            <tr>
+                <th>Address:</th>
+                <td>2-59/1 Nekkare Ballamajalu House, Peraje Village, Budoli Post, Bantwal Taluk, D.K, Karnataka-574253</td>
+            </tr>
+            <tr>
+                <th>Phone:</th>
+                <td>9019520110</td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td><a href="mailto:mokshitahn2005@gmail.com">mokshitahn2005@gmail.com</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>Please feel free to reach out to me:</p>
+        <ul>
+            <li>Phone: 9019520110</li>
+            <li>Email: <a href="mailto:mokshitahn2005@gmail.com">mokshitahn2005@gmail.com</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mokshitha. All rights reserved.</p>
+    </footer>
+</body>
+</html>
